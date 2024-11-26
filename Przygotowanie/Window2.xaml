@@ -1,0 +1,18 @@
+﻿<Window x:Class="Przygotowanie.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Przygotowanie"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <DockPanel>
+        <Button Content="Góra" DockPanel.Dock="Top" />
+        <Button Content="Dół" DockPanel.Dock="Bottom" />
+        <Button Content="Lewo" DockPanel.Dock="Left" />
+        <Button Content="Prawo" DockPanel.Dock="Right" />
+        <Button Content="Środek" />
+    </DockPanel>
+    <!--DockPanel układa elementy wzdłóż krawędzi (lewa, prawa, góra, dół), a ostatni element wypełnia pozostałe miejsca.
+    Kluczowe właściwości: DockPanel.Dock = określa gdzie ma być zadokowany element (Left, Right,Top, Bottom).-->
+</Window>
